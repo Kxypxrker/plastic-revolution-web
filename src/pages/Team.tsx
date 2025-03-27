@@ -15,37 +15,44 @@ const Team = () => {
   const teamMembers: TeamMember[] = [
     {
       id: 1,
-      name: "Tendai Makoni",
-      role: "Founder & CEO",
-      bio: "Tendai founded Mckingtorch Zimbabwe after witnessing the devastating impact of plastic pollution in local communities.",
-      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=2574"
-    },
-    {
-      id: 2,
-      name: "Chiedza Moyo",
-      role: "Head of Design & Innovation",
-      bio: "With a background in industrial design, Chiedza leads our product development team and creates innovative applications for recycled plastic.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=2574"
-    },
-    {
-      id: 3,
-      name: "Farai Nyamande",
-      role: "Operations Manager",
-      bio: "Farai oversees our waste collection networks and production facilities, ensuring quality and efficiency across all operations.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=2574"
-    },
-    {
-      id: 4,
-      name: "Nyasha Chikwanda",
-      role: "Community Engagement Specialist",
-      bio: "Nyasha works directly with communities to establish collection networks and leads our environmental education programs.",
+      name: "Charlene Muguti",
+      role: "CEO & Co-Founder",
+      bio: "Charlene founded Mckingtorch Zimbabwe with a vision to transform plastic waste into sustainable products that benefit local communities.",
       image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=2574"
     },
     {
+      id: 2,
+      name: "Makafui Kojo Awuku",
+      role: "Co-Founder & Product Innovator",
+      bio: "With expertise in product development, Makafui leads our innovation team and creates sustainable applications for recycled plastic.",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=2574"
+    },
+    {
+      id: 3,
+      name: "Vaida F. Munengwa",
+      role: "Content & Community Engagement Manager",
+      bio: "Vaida leads our community outreach initiatives and develops engaging content to promote our mission and environmental education.",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=2574"
+    },
+    {
+      id: 4,
+      name: "Precious T. Zvimba",
+      role: "Administrative Operations",
+      bio: "Precious manages our day-to-day operations, ensuring efficiency and organization across all departments.",
+      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=2574"
+    },
+    {
       id: 5,
-      name: "Tawanda Muzanenhamo",
-      role: "Technical Director",
-      bio: "With expertise in materials science, Tawanda develops new processing techniques to maximize the quality and applications of our recycled materials.",
+      name: "Omega M. Taisirevepi",
+      role: "Administrative Assistant",
+      bio: "Omega provides essential support to our administrative team, helping to coordinate projects and maintain smooth operations.",
+      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=2574"
+    },
+    {
+      id: 6,
+      name: "Charles Kudzi Muguti",
+      role: "IT",
+      bio: "Charles oversees our technological infrastructure, ensuring our systems run smoothly and developing tech solutions to support our mission.",
       image: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&q=80&w=2574"
     }
   ];
