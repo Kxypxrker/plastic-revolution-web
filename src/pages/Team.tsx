@@ -1,6 +1,7 @@
 
 import SectionHeader from "@/components/ui/shared/SectionHeader";
 import TeamCard from "@/components/team/TeamCard";
+import AnimatedButton from "@/components/ui/shared/AnimatedButton";
 
 interface TeamMember {
   id: number;

@@ -4,6 +4,7 @@ import SectionHeader from "@/components/ui/shared/SectionHeader";
 import ProductCard from "@/components/products/ProductCard";
 import ProductModal from "@/components/products/ProductModal";
 import { Product } from "@/components/products/ProductModal";
+import AnimatedButton from "@/components/ui/shared/AnimatedButton";
 
 const Products = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
