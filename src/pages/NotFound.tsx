@@ -1,5 +1,7 @@
+
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import AnimatedButton from "@/components/ui/shared/AnimatedButton";
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,13 +14,18 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="container-padding mx-auto">
+        <div className="glass-card max-w-xl mx-auto p-10 rounded-2xl">
+          <div className="text-center">
+            <h1 className="text-9xl font-display font-bold text-primary mb-6">404</h1>
+            <h2 className="heading-lg mb-6">Page Not Found</h2>
+            <p className="text-muted-foreground mb-8">
+              The page you are looking for doesn't exist or has been moved.
+            </p>
+            <AnimatedButton text="Return to Home" href="/" size="lg" />
+          </div>
+        </div>
       </div>
     </div>
   );
