@@ -1,4 +1,3 @@
-
 import SectionHeader from "@/components/ui/shared/SectionHeader";
 import TeamCard from "@/components/team/TeamCard";
 import AnimatedButton from "@/components/ui/shared/AnimatedButton";
@@ -18,42 +17,42 @@ const Team = () => {
       name: "Charlene Muguti",
       role: "CEO & Co-Founder",
       bio: "Charlene founded Mckingtorch Zimbabwe with a vision to transform plastic waste into sustainable products that benefit local communities.",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=2574"
+      image: "public/lovable-uploads/ef105c16-f0c4-448c-8da9-1b5391bf0ccc.png"
     },
     {
       id: 2,
       name: "Makafui Kojo Awuku",
       role: "Co-Founder & Product Innovator",
       bio: "With expertise in product development, Makafui leads our innovation team and creates sustainable applications for recycled plastic.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=2574"
+      image: "public/lovable-uploads/f138276f-d16b-442c-a3ed-32ac5ceb99c6.png"
     },
     {
       id: 3,
       name: "Vaida F. Munengwa",
       role: "Content & Community Engagement Manager",
       bio: "Vaida leads our community outreach initiatives and develops engaging content to promote our mission and environmental education.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=2574"
+      image: "public/lovable-uploads/b7b49677-46e5-4451-b9c0-990dcff3f93b.png"
     },
     {
       id: 4,
       name: "Precious T. Zvimba",
       role: "Administrative Operations",
       bio: "Precious manages our day-to-day operations, ensuring efficiency and organization across all departments.",
-      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=2574"
+      image: "public/lovable-uploads/b35ae621-6d6d-4f73-8416-70ede5c3ccbc.png"
     },
     {
       id: 5,
       name: "Omega M. Taisirevepi",
       role: "Administrative Assistant",
       bio: "Omega provides essential support to our administrative team, helping to coordinate projects and maintain smooth operations.",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=2574"
+      image: "public/lovable-uploads/6bf92264-53e0-4d4d-abb8-302864c32df8.png"
     },
     {
       id: 6,
       name: "Charles Kudzi Muguti",
       role: "IT",
       bio: "Charles oversees our technological infrastructure, ensuring our systems run smoothly and developing tech solutions to support our mission.",
-      image: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&q=80&w=2574"
+      image: "public/lovable-uploads/b7b49677-46e5-4451-b9c0-990dcff3f93b.png" // This seems to be missing, using another image as placeholder
     }
   ];
 
