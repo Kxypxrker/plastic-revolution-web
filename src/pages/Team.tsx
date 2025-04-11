@@ -1,6 +1,7 @@
 import SectionHeader from "@/components/ui/shared/SectionHeader";
 import TeamCard from "@/components/team/TeamCard";
 import AnimatedButton from "@/components/ui/shared/AnimatedButton";
+import MyImages from "public/lovable-uploads";
 
 interface TeamMember {
   id: number;
@@ -17,42 +18,42 @@ const Team = () => {
       name: "Charlene Muguti",
       role: "CEO & Co-Founder",
       bio: "Charlene founded Mckingtorch Zimbabwe with a vision to transform plastic waste into sustainable products that benefit local communities.",
-      image: "public/lovable-uploads/ef105c16-f0c4-448c-8da9-1b5391bf0ccc.png"
+      image: "/lovable-uploads/6bf92264-53e0-4d4d-abb8-302864c32df8.png"
     },
     {
       id: 2,
       name: "Makafui Kojo Awuku",
       role: "Co-Founder & Product Innovator",
       bio: "With expertise in product development, Makafui leads our innovation team and creates sustainable applications for recycled plastic.",
-      image: "public/lovable-uploads/f138276f-d16b-442c-a3ed-32ac5ceb99c6.png"
+      image: "/lovable-uploads/f138276f-d16b-442c-a3ed-32ac5ceb99c6.png"
     },
     {
       id: 3,
       name: "Vaida F. Munengwa",
       role: "Content & Community Engagement Manager",
       bio: "Vaida leads our community outreach initiatives and develops engaging content to promote our mission and environmental education.",
-      image: "public/lovable-uploads/b7b49677-46e5-4451-b9c0-990dcff3f93b.png"
+      image: "/lovable-uploads/b35ae621-6d6d-4f73-8416-70ede5c3ccbc.png"
     },
     {
       id: 4,
       name: "Precious T. Zvimba",
       role: "Administrative Operations",
       bio: "Precious manages our day-to-day operations, ensuring efficiency and organization across all departments.",
-      image: "public/lovable-uploads/b35ae621-6d6d-4f73-8416-70ede5c3ccbc.png"
+      image: "/lovable-uploads/JCIZimbabwe2024NatConGalaDInner-189.jpg"
     },
     {
       id: 5,
       name: "Omega M. Taisirevepi",
       role: "Administrative Assistant",
       bio: "Omega provides essential support to our administrative team, helping to coordinate projects and maintain smooth operations.",
-      image: "public/lovable-uploads/6bf92264-53e0-4d4d-abb8-302864c32df8.png"
+      image: "/lovable-uploads/ef105c16-f0c4-448c-8da9-1b5391bf0ccc.png"
     },
     {
       id: 6,
       name: "Charles Kudzi Muguti",
       role: "IT",
       bio: "Charles oversees our technological infrastructure, ensuring our systems run smoothly and developing tech solutions to support our mission.",
-      image: "public/lovable-uploads/b7b49677-46e5-4451-b9c0-990dcff3f93b.png" // This seems to be missing, using another image as placeholder
+      image: "/lovable-uploads/b7b49677-46e5-4451-b9c0-990dcff3f93b.png" // This seems to be missing, using another image as placeholder
     }
   ];
 
